@@ -1,6 +1,6 @@
 @import "./../node_modules/include-media/dist/include-media";
-@import "./../node_modules//bootstrap/scss//bootstrap.scss";
-@import "./data/themes.scss";
+@import '../node_modules/bootstrap-scss/bootstrap.scss';
+@import './assets/themes.scss';
 /* responsive declarations*/
 $breakpoints: (
     tablet: 576px,
