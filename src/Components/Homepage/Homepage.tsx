@@ -5,7 +5,7 @@ import book from "../../assets/book.svg";
 
 const Homepage = () => {
   return (
-    <div className={styles.homepageContainer}>
+    <div className='w-full h-screen bg-black'>
       <div className={styles.header}>
         <div className={styles.logoDiv}>
           <div className={styles.logoImg}>

@@ -17,11 +17,9 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-  @include media("<tablet") {
-  }
+  @include media("<tablet") {}
 
-  @include media(">=tablet", "<desktop") {
-  }
+  @include media(">=tablet", "<desktop") {}
 }
 
 .homeWrapper {
@@ -52,8 +50,7 @@
     width: 100%;
   }
 
-  @include media(">=tablet", "<desktop") {
-  }
+  @include media(">=tablet", "<desktop") {}
 }
 
 .mainTitle {
@@ -96,11 +93,9 @@
   display: flex;
   gap: 1rem;
 
-  @include media("<tablet") {
-  }
+  @include media("<tablet") {}
 
-  @include media(">=tablet", "<desktop") {
-  }
+  @include media(">=tablet", "<desktop") {}
 }
 
 .greenBtn {
@@ -151,12 +146,7 @@
 
 .secondBox {
   width: 100%;
-  background: linear-gradient(
-    108.35deg,
-    #000000 0.13%,
-    rgba(44, 44, 44, 0.7606) 0.14%,
-    rgba(115, 115, 115, 0.37) 99.87%
-  );
+  background: linear-gradient(108.35deg, #000000 0.13%, rgba(115, 115, 115, 0.37) 99.87%);
   padding: 2.2rem;
   border-radius: 20px;
   margin-top: 3rem;
@@ -235,11 +225,9 @@
     width: 20px;
     height: 20px;
 
-    @include media("<tablet") {
-    }
+    @include media("<tablet") {}
 
-    @include media(">=tablet", "<desktop") {
-    }
+    @include media(">=tablet", "<desktop") {}
   }
 }
 
@@ -340,21 +328,17 @@
   display: flex;
   gap: 1.4rem;
 
-  @include media("<tablet") {
-  }
+  @include media("<tablet") {}
 
-  @include media(">=tablet", "<desktop") {
-  }
+  @include media(">=tablet", "<desktop") {}
 }
 
 .forthDiv {
   width: 90%;
-  background: linear-gradient(
-    108.35deg,
-    #3fd19d 0.13%,
-    rgba(242, 193, 193, 0.7606) 0.14%,
-    rgba(129, 114, 114, 0.37) 99.87%
-  );
+  background: linear-gradient(108.35deg,
+      #3fd19d 0.13%,
+      rgba(242, 193, 193, 0.7606) 0.14%,
+      rgba(129, 114, 114, 0.37) 99.87%);
   margin: auto;
   padding: 2.2rem 4rem;
   border-radius: 20px;
@@ -369,8 +353,7 @@
     padding: 2rem;
   }
 
-  @include media(">=tablet", "<desktop") {
-  }
+  @include media(">=tablet", "<desktop") {}
 }
 
 .forthWrapp {
@@ -378,11 +361,9 @@
   align-items: center;
   gap: 1.4rem;
 
-  @include media("<tablet") {
-  }
+  @include media("<tablet") {}
 
-  @include media(">=tablet", "<desktop") {
-  }
+  @include media(">=tablet", "<desktop") {}
 }
 
 .forthText {
@@ -410,11 +391,9 @@
   align-items: center;
   justify-content: space-between;
 
-  @include media("<tablet") {
-  }
+  @include media("<tablet") {}
 
-  @include media(">=tablet", "<desktop") {
-  }
+  @include media(">=tablet", "<desktop") {}
 }
 
 .logoDiv {
@@ -422,11 +401,9 @@
   align-items: center;
   gap: 1rem;
 
-  @include media("<tablet") {
-  }
+  @include media("<tablet") {}
 
-  @include media(">=tablet", "<desktop") {
-  }
+  @include media(">=tablet", "<desktop") {}
 }
 
 .logoImg {
@@ -440,8 +417,7 @@
       height: 40px;
     }
 
-    @include media(">=tablet", "<desktop") {
-    }
+    @include media(">=tablet", "<desktop") {}
   }
 }
 
@@ -463,8 +439,7 @@
       font-size: 10px;
     }
 
-    @include media(">=tablet", "<desktop") {
-    }
+    @include media(">=tablet", "<desktop") {}
   }
 }
 
@@ -481,6 +456,5 @@
     font-size: 14px;
   }
 
-  @include media(">=tablet", "<desktop") {
-  }
+  @include media(">=tablet", "<desktop") {}
 }
